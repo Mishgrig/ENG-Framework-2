@@ -6,7 +6,7 @@ import { Renderer } from "@/components/studio/Renderer";
 import { CommandBar } from "@/components/studio/CommandBar";
 import { EventConsole } from "@/components/studio/EventConsole";
 import { Button } from "@/components/ui/button";
-import { clsx } from "clsx";
+import clsx from "clsx";
 import LZString from "lz-string";
 
 function tryParse(json: string){
